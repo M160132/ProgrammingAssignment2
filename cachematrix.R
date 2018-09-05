@@ -1,7 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## The main idea of this function is copied from rdpeng in his script of manipulation of mean
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -15,8 +12,6 @@ makeCacheMatrix <- function(x = matrix()) {
         list(set = set, get = get, setInverse = setInverse, getInverse = getInverse)
 }
 
-
-## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
         inv <- x$getInverse()
